@@ -1,0 +1,17 @@
+.navBar {
+    background-color: rgba(0, 26, 255, 0.719) !important;
+    
+}
+
+.logoM {
+    height: 80px;
+    width: 100px;
+    border-radius: 100%;
+border-style: solid;
+}
+.bienvenido:hover {
+    color: brown;
+}
+main { 
+    text-align: center;
+}
