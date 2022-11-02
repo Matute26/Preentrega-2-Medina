@@ -24,6 +24,7 @@ background: linear-gradient(to left, #1A2980, #26D0CE);
 }
 
 .titulologo {
+    
     grid-area: icono;
 }
 .logoM {
@@ -38,6 +39,7 @@ border-style: solid;
     /* font-family: 'Raleway', sans-serif; */
 }
 main { 
+    
     text-align: center;
 }
 .progress {
@@ -70,9 +72,7 @@ main {
 "servicios servicios servicios"
 "camaras pc web"
 "camaras pc web"
-"camaras pc web"   
-    ;
- 
+"camaras pc web"   ;
 }
 .s-tecnicos {
     font-family: 'Urbanist', sans-serif;
@@ -128,3 +128,30 @@ text-decoration: none;
     text-align: center;
     color: black;
 }
+.footer {
+    margin-top: 120px;
+    /* MIRAR COMO AJUSTAR CON BOX MODELING */
+}
+.footer a {
+    text-decoration: none;
+}
+.instagram {
+    color:rgb(196, 25, 90);
+
+}
+.facebook {
+    color: blue;
+
+}
+
+.whatsapp {
+color: green;
+
+}
+.redes {
+    font-family: 'Raleway', sans-serif;
+}
+.progress {
+    background: none;
+}
+
