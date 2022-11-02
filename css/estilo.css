@@ -1,17 +1,60 @@
-.navBar {
-    background-color: rgba(0, 26, 255, 0.719) !important;
-    
+/* LINK DE FUENTE */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+Vai&family=Raleway:ital,wght@1,500&family=Urbanist:wght@300&display=swap');
+/* FIN DE LINK DE FUENTE */
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Noto Sans Vai', sans-serif;
+font-family: 'Raleway', sans-serif; 
+font-family: 'Urbanist', sans-serif;
+*/
+.bodyContainer {
+    background: linear-gradient(to right , #4b6cb7 ,#182848);
 }
 
+.titulo {
+    font-family: 'Urbanist', sans-serif;
+}
+.navBar {
+    background: linear-gradient(to top, #DAE2F8, #D6A4A4) !important;
+
+}
+.titulologo {
+    grid-area: icono;
+}
 .logoM {
     height: 80px;
     width: 100px;
     border-radius: 100%;
 border-style: solid;
 }
-.bienvenido:hover {
-    color: brown;
+.bienvenido {
+    font-family: 'Urbanist', sans-serif;
+    /* font-family: 'Abril Fatface', cursive; */
+    /* font-family: 'Raleway', sans-serif; */
 }
 main { 
     text-align: center;
+}
+.progress {
+    height: 30px !important;
+}
+.progress-bar {
+    height: 30px !important;
+}
+.progressBar{
+    grid-area: barra;
+    height: 90px;
+    width: 490px;
+}
+.conocimientos {
+    font-family: 'Urbanist', sans-serif;
+
+}
+.quienSoy{
+    grid-area: yo;
+    font-family: 'Urbanist', sans-serif;
+}
+.descripcionMia {
+    width: 490px;
+    height: 160px;
+    opacity: calc(95%);
 }
