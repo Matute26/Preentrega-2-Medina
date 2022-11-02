@@ -9,14 +9,20 @@ font-family: 'Urbanist', sans-serif;
 .bodyContainer {
     background: linear-gradient(to right , #4b6cb7 ,#182848);
 }
+.bodyContainer2 {
+    background: linear-gradient(to right, #283048, #859398);}
 
 .titulo {
     font-family: 'Urbanist', sans-serif;
 }
 .navBar {
     background: linear-gradient(to top, #DAE2F8, #D6A4A4) !important;
+}
+.navBar2 {
+background: linear-gradient(to left, #1A2980, #26D0CE);
 
 }
+
 .titulologo {
     grid-area: icono;
 }
