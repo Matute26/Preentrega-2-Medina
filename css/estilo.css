@@ -64,3 +64,67 @@ main {
     height: 160px;
     opacity: calc(95%);
 }
+.cardServiciosTecnicos {
+    display: grid;
+    grid-template-areas: 
+"servicios servicios servicios"
+"camaras pc web"
+"camaras pc web"
+"camaras pc web"   
+    ;
+ 
+}
+.s-tecnicos {
+    font-family: 'Urbanist', sans-serif;
+color: black;
+    grid-area: servicios;
+}
+.camaras {
+    color: black;
+    grid-area: camaras;
+}
+.servicioPc {
+    color: black;
+    grid-area: pc;
+}
+.webDev {
+    color: black;
+    grid-area: web;
+}
+
+.cardServiciosConstruccion {
+    display: grid;
+    grid-template-areas:
+    "construccion construccion construccion"
+    "gas herreria plomeria"
+    ;
+}
+.s-construccion {
+font-family: 'Urbanist', sans-serif;
+color: black;
+    grid-area: construccion;
+}
+.gas {
+    color: black;
+    grid-area: gas;
+}
+.herreria {
+    color: black;
+    grid-area: herreria;
+}
+
+.plomeria {
+    color: black;
+    grid-area: plomeria;
+}
+
+.redes {
+    background-color: #283048;
+list-style-type: none;
+text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    color: black;
+}
