@@ -216,3 +216,23 @@ color: green;
     height: 18rem;
     width: auto;
 }
+
+.servicio {
+    width: 90% !important;
+    height: 70%;
+}
+
+
+
+@media (max-width:420px){
+    .cardsContainer {
+        display: grid;
+        grid-template-areas: 
+        "yo biografia"
+        "aplicaciones hobbies"
+        "mascota aprender"
+        ;
+    }
+
+}
+
