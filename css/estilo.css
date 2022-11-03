@@ -61,11 +61,6 @@ main {
     grid-area: yo;
     font-family: 'Urbanist', sans-serif;
 }
-.descripcionMia {
-    width: 490px;
-    height: 160px;
-    opacity: calc(95%);
-}
 .cardServiciosTecnicos {
     display: grid;
     grid-template-areas: 
@@ -129,8 +124,8 @@ text-decoration: none;
     color: black;
 }
 .footer {
+    height: 50px;
     margin-top: 120px;
-    /* MIRAR COMO AJUSTAR CON BOX MODELING */
 }
 .footer a {
     text-decoration: none;
@@ -151,7 +146,73 @@ color: green;
 .redes {
     font-family: 'Raleway', sans-serif;
 }
-.progress {
-    background: none;
+.hobbies{
+    grid-area: hobbies;
+}
+.progressBar {
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
+.progress {
+    align-items: center;
+    background: none;
+}
+.card {
+    width: 40%;
+}
+
+/* Grid del Main */
+.cardsContainer {
+    display: grid;
+    grid-template-areas:
+    "yo biografia aplicaciones"
+    "hobbies mascota aprender"
+    ;
+}
+.yo {
+    background-color: #D6A4A4;
+    border-color: black;
+    color: black;
+    grid-area: yo;
+}
+
+.biografia {
+    background-color: lightgrey;
+    border-color: black;
+    color: black;
+    grid-area: biografia;
+}
+
+.hobbies {
+    background-color: lightseagreen;
+    border-color: black;
+    color: black;
+    grid-area: hobbies;
+}
+
+.aplicaciones {
+    background-color: lightpink;
+    border-color: black;
+    color: black;
+    grid-area: aplicaciones;
+}
+
+.mascota {
+    background-color: orangered;
+    border-color: black;
+    color: black;
+    grid-area: mascota;
+}
+
+.aprender {
+    background-color: rgba(68, 68, 197, 0.283);
+    border-color: black;
+    color: black;
+    grid-area: aprender;
+}
+
+.card {
+    height: 18rem;
+    width: auto;
+}
